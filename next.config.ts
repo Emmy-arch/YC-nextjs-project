@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  
+
   images: {
     dangerouslyAllowSVG: true,
     remotePatterns: [
@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
   },
 
   experimental: {
-    ppr: 'incremental'
+    // ppr: 'incremental'
   },
 
   devIndicators: {
